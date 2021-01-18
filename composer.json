@@ -1,0 +1,102 @@
+{
+    "name": "flarum/flarum",
+    "description": "Delightfully simple forum software.",
+    "type": "project",
+    "keywords": [
+        "forum",
+        "discussion"
+    ],
+    "homepage": "https://flarum.org/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Franz Liedke",
+            "email": "franz@develophp.org"
+        },
+        {
+            "name": "Daniel Klabbers",
+            "email": "daniel@klabbers.email",
+            "homepage": "https://luceos.com"
+        },
+        {
+            "name": "David Sevilla Martin",
+            "email": "me+flarum@datitisev.me",
+            "homepage": "https://datitisev.me"
+        },
+        {
+            "name": "Clark Winkelmann",
+            "email": "clark.winkelmann@gmail.com",
+            "homepage": "https://clarkwinkelmann.com"
+        },
+        {
+            "name": "Matthew Kilgore",
+            "email": "matthew@kilgore.dev"
+        },
+        {
+            "name": "Alexander (Sasha) Skvortsov",
+            "email": "askvortsov@flarum.org"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/flarum/core/issues",
+        "source": "https://github.com/flarum/flarum",
+        "docs": "https://flarum.org/docs/"
+    },
+    "require": {
+        "alterbyte/stripe-payment": "^1.0",
+        "andre-pullinen/ads": "^0.2.8",
+        "clarkwinkelmann/flarum-ext-emojionearea": "^0.3.0",
+        "clarkwinkelmann/flarum-ext-mailing": "^0.4.0",
+        "datitisev/flarum-ext-dashboard": "v0.1.0-beta.9.2",
+        "flarum/approval": "^0.1.0",
+        "flarum/bbcode": "^0.1.0",
+        "flarum/core": "^0.1.0",
+        "flarum/emoji": "^0.1.0",
+        "flarum/flags": "^0.1.0",
+        "flarum/lang-english": "^0.1.0",
+        "flarum/likes": "^0.1.0",
+        "flarum/lock": "^0.1.0",
+        "flarum/markdown": "^0.1.0",
+        "flarum/mentions": "^0.1.0",
+        "flarum/nicknames": "^0.1.0",
+        "flarum/pusher": "^0.1.0",
+        "flarum/statistics": "^0.1.0",
+        "flarum/sticky": "^0.1.0",
+        "flarum/subscriptions": "^0.1.0",
+        "flarum/suspend": "^0.1.0",
+        "flarum/tags": "^0.1.0",
+        "fof/amazon-affiliation": "^0.4.0",
+        "fof/analytics": "^0.11.0",
+        "fof/best-answer": "^0.3.3",
+        "fof/custom-footer": "^0.3.0",
+        "fof/filter": "^0.3.1",
+        "fof/formatting": "^0.3.1",
+        "fof/links": "^0.5.0",
+        "fof/pages": "^0.6.0",
+        "fof/polls": "^0.3.2",
+        "fof/pretty-mail": "^0.3.0",
+        "fof/profile-image-crop": "^0.2.1",
+        "fof/pwned-passwords": "^0.6.0",
+        "fof/reactions": "^0.5.0",
+        "fof/recaptcha": "^0.3.1",
+        "fof/secure-https": "^0.3.0",
+        "fof/spamblock": "^0.4.0",
+        "fof/split": "*",
+        "fof/terms": "^0.6.1",
+        "fof/upload": "^0.12.2",
+        "fof/user-bio": "^0.4.1",
+        "fof/webhooks": "^0.4.0",
+        "luuhai48/oauth-google": "^1.1",
+        "nearata/flarum-ext-embed-video": "^1.1",
+        "sycho/flarum-profile-cover": "^1.2",
+        "terabin/flarum-ext-sitemap": "^1.0@beta",
+        "v17development/flarum-seo": "^1.5",
+        "zerosonesfun/direct-links": "^2.0"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "beta",
+    "prefer-stable": true
+}
