@@ -1,0 +1,15 @@
+[2021-01-16 06:43:07] Flarum Installer.ERROR: Symfony\Component\Console\Exception\CommandNotFoundException: Command "migrate" is not defined. in D:\flarum\vendor\symfony\console\Application.php:676
+Stack trace:
+#0 D:\flarum\vendor\symfony\console\Application.php(237): Symfony\Component\Console\Application->find('migrate')
+#1 D:\flarum\vendor\symfony\console\Application.php(149): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 D:\flarum\vendor\flarum\core\src\Console\Server.php(42): Symfony\Component\Console\Application->run()
+#3 D:\flarum\flarum(24): Flarum\Console\Server->listen()
+#4 {main}  
+[2021-01-16 06:43:14] Flarum Installer.ERROR: Symfony\Component\Console\Exception\NamespaceNotFoundException: There are no commands defined in the "cache" namespace. in D:\flarum\vendor\symfony\console\Application.php:604
+Stack trace:
+#0 D:\flarum\vendor\symfony\console\Application.php(657): Symfony\Component\Console\Application->findNamespace('cache')
+#1 D:\flarum\vendor\symfony\console\Application.php(237): Symfony\Component\Console\Application->find('cache:clear')
+#2 D:\flarum\vendor\symfony\console\Application.php(149): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 D:\flarum\vendor\flarum\core\src\Console\Server.php(42): Symfony\Component\Console\Application->run()
+#4 D:\flarum\flarum(24): Flarum\Console\Server->listen()
+#5 {main}  
